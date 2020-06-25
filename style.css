@@ -1,0 +1,245 @@
+@font-face {
+    font-family: Rubik;
+    src: url('assets/fonts/Rubik-Regular.ttf');
+}
+
+body {
+    box-sizing: border-box;
+    outline: none;
+    font-family: Rubik;
+    color: #000;
+}
+
+.title{
+    font-size: 34px;
+    line-height: 42px;
+    font-weight: bold;
+}
+/*Header*/
+.header {
+    width: 950px;
+    margin: 0 auto;
+    border-bottom: 1px solid #828282;
+    padding: 30px 0;
+    text-align: center;
+    position: relative;
+}
+
+.navBar {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+
+.navBar a {
+    text-decoration: none;
+    font-family: Rubik;
+    color: #000;
+}
+
+.navBar a:hover {
+    font-weight: bold;
+}
+
+/*First Section*/
+.home-wrapper {
+    width: 950px;
+    margin: 0 auto;
+    position: relative;
+    height: 600px;
+}
+
+.home-description {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.home-description-name {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.home-description-name p {
+    margin: 10px 0;
+}
+
+.home-description-about {
+    padding-top: 40px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: normal;
+}
+
+.home-description-about p {
+    margin: 10px 0;
+}
+
+.home-description-from p {
+    transform: rotate(-90deg)
+}
+
+.home-description-from {
+    padding-top: 47px;
+}
+.home-img-wrapper{
+    width: 700px;
+    margin: 0 auto;
+}
+.home-img{
+    height: 387px;
+    width: 700px;
+}
+
+/*Second Section*/
+.about {
+    background-color: #F6F6F6;
+}
+
+.about-wrapper {
+    width: 950px;
+    margin: 0 auto;
+    position: relative;
+    height: 600px;
+    text-align: center;
+    align-items: center;
+}
+
+.about-container {
+    padding-top: 120px;
+}
+
+.about-title {
+    margin-top: 10px;
+}
+
+.about-subtitle-container {
+    margin: 0 auto;
+    width: 480px;
+}
+
+.about-subtitle {
+    margin-top: 17px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+/*third section*/
+.skills {
+    height: 610px;
+    background: white;
+}
+
+.skills-wrapper {
+    width: 950px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+.skills-title{
+    margin-top: 90px;
+
+}
+.skills-subtitle{
+    margin-top: 70px;
+    font-size: 18px;
+    line-height: 22px;
+}
+.skills-item-container{
+    display: flex;
+    margin-top: 80px;
+    flex-direction: column;
+}
+.skills-item-container-row{
+    display: flex;
+    width: 100%;
+}
+.skills-item-container-first-row{
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+.skills-item-container-second-row{
+
+    justify-content: space-evenly;
+
+}
+.skills-item-img{
+    height: 80px;
+}
+/*fourth section*/
+.portfolio{
+    background-color: #F6F6F6;
+
+}
+.portfolio-wrapper{
+    width: 950px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+.portfolio-title{
+    margin-top: 90px;
+
+}
+.portfolio-container{
+    margin-top: 50px;
+}
+.portfolio-item{
+    margin-bottom: 30px;
+}
+.portfolio-item-img{
+    height: 510px;
+    width: 936px;
+    margin-bottom: 20px;
+}
+.portfolio-item-link {
+    color: #000;
+    font-family: Rubik;
+
+    font-size: 18px;
+    line-height: 22px;
+}
+.portfolio-item-link:hover{
+font-weight: bold;
+}
+
+/*fifth section*/
+.contacts-wrapper{
+    width: 950px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    height: 500px;
+}
+.contacts-title{
+    margin-top: 100px;
+}
+.contacts-button{
+    width: 180px;
+    outline: none;
+    background: black;
+    border: none;
+    height: 40px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+.contacts-button a{
+    color: white;
+    text-decoration: none;
+}
+.contacts-icon-container{
+    margin: 60px auto;
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+}
+.contacts-icon{
+    width: 40px;
+}
+.end{
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #828282;
+}
